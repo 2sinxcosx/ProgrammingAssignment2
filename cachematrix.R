@@ -1,6 +1,6 @@
+## MakeCacheMatrix creates a list containing a function which
+## can cache the inverse of a matrix.
 makeCacheMatrix <- function(x=matrix()) {
-  ## MakeCacheMatrix creates a list containing a function which
-  ## can cache the inverse of a matrix.
   m <- NULL
   set <- function(y) {
     x <<- y
